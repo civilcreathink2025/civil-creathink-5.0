@@ -36,4 +36,70 @@
     }
     .button:hover {
       opacity: 0.85;
-      transform: sc
+      transform: scale(1.02);
+    }
+    .maroon { background-color: #800000; }
+    .orange { background-color: #FF9800; }
+    .yellow { background-color: #FFC107; color: black; }
+
+    .image-link {
+      margin: 20px auto;
+      padding-bottom: 30px;
+    }
+    .image-link img {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin: 15px auto;
+      display: block;
+    }
+    #contact p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <img class="logo" src="images/logo.jpg" alt="Logo HMTS UNSIQ" />
+
+  <h1>HIMPUNAN MAHASISWA TEKNIK SIPIL UNSIQ</h1>
+  <h2>LOMBA DAN SEMINAR</h2>
+
+  <!-- Tombol Link -->
+  <a class="button orange" href="https://forms.gle/63t9wjQf2iedYFNj9" target="_blank" rel="noopener noreferrer">SEMINAR NASIONAL<br>Link Pendaftaran</a>
+
+  <a class="button orange" href="formulir-pendaftaran.pdf" target="_blank" rel="noopener noreferrer">NATIONAL BRIDGE CHALLENGE<br>Formulir Pendaftaran</a>
+
+  <a class="button yellow" href="tor.pdf" target="_blank" rel="noopener noreferrer">TOR<br>(National Bridge Challenge)</a>
+
+  <a class="button yellow" href="#twibbon">LIHAT TWIBBON</a>
+  <a class="button yellow" href="#pamflet">LIHAT PAMFLET</a>
+  <a class="button yellow" href="#contact">CONTACT PERSON</a>
+
+  <!-- PAMFLET -->
+  <div id="pamflet" class="image-link">
+    <h2>Pamflet</h2>
+    <img src="images/pamflet1.jpg" alt="Pamflet 1" />
+    <img src="images/pamflet2.jpg" alt="Pamflet 2" />
+  </div>
+
+  <!-- TWIBBON -->
+  <div id="twibbon" class="image-link">
+    <h2>Twibbon</h2>
+    <img src="images/twibbon.jpg" alt="Twibbon Civil Creathink" />
+  </div>
+
+  <!-- CONTACT -->
+  <div id="contact">
+    <h2>Contact Person</h2>
+    <p>
+      📞 083869051126 (Sovidiah Lestari)<br>
+      📞 085700918328 (Naufa Dinda)<br>
+      📧 Email: civilcreathink2025@gmail.com
+    </p>
+  </div>
+
+</body>
+</html>

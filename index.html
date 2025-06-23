@@ -7,23 +7,28 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      text-align: center;
       background: linear-gradient(to bottom, #dbeefb, #ffffff);
+      text-align: center;
       margin: 0;
       padding: 20px;
     }
 
+    img.logo {
+      width: 100px;
+      margin-top: 20px;
+    }
+
     h1 {
-      font-size: 24px;
+      font-size: 22px;
+      margin-bottom: 5px;
       font-weight: bold;
-      margin-bottom: 10px;
+      color: #333;
     }
 
     h2 {
       font-size: 18px;
+      color: #4a4a4a;
       font-weight: normal;
-      color: #444;
-      margin-bottom: 20px;
     }
 
     .btn {
@@ -38,52 +43,49 @@
       border-radius: 30px;
       color: white;
       text-decoration: none;
-      background-color: #f39c12;
-      transition: 0.2s;
+      transition: 0.2s ease-in-out;
     }
 
     .btn:hover {
       opacity: 0.85;
     }
 
-    .gambar {
-      margin: 20px auto;
-      max-width: 90%;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-
-    .section-title {
-      font-size: 20px;
-      margin-top: 40px;
-      color: #222;
-    }
+    .seminar     { background-color: #3498db; }
+    .nbc         { background-color: #f39c12; }
+    .tor         { background-color: #f39c12; }
+    .formulir    { background-color: #f39c12; }
+    .twibbon     { background-color: #f39c12; }
+    .pamflet     { background-color: #f39c12; }
   </style>
 </head>
 <body>
 
+  <!-- Ganti dengan logo sendiri jika perlu -->
+  <img src="logo.png" alt="Logo HMTS" class="logo">
+
   <h1>HIMPUNAN MAHASISWA TEKNIK SIPIL UNSIQ</h1>
-  <h2>CIVIL CREATHINK 5.0 - LOMBA & SEMINAR NASIONAL</h2>
+  <h2>SEMINAR DAN LOMBA NASIONAL</h2>
 
-  <!-- Tombol Link -->
-  <a class="btn" href="https://example.com/formulir-seminar" target="_blank">SEMINAR NASIONAL (Link Pendaftaran)</a>
-  <a class="btn" href="https://example.com/formulir-ntbbc" target="_blank">NATIONAL BRIDGE CHALLENGE (Formulir)</a>
-  <a class="btn" href="https://example.com/tor-ntbbc" target="_blank">TOR (National Bridge Challenge)</a>
-  <a class="btn" href="twibbon.jpg" download>Download TWIBBON</a>
-  <a class="btn" href="pamflet1.jpg" download>Download PAMFLET 1</a>
-  <a class="btn" href="pamflet2.jpg" download>Download PAMFLET 2</a>
+  <!-- Ganti href dengan link asli -->
+  <a class="btn seminar" href="https://example.com/pendaftaran-seminar" target="_blank">
+    SEMINAR NASIONAL (Link Pendaftaran)
+  </a>
 
-  <!-- Gambar Twibbon -->
-  <div class="section-title">Twibbon</div>
-  <img src="twibbon.jpg" alt="Twibbon Civil Creathink" class="gambar">
+  <a class="btn nbc" href="https://example.com/formulir-ntbbc" target="_blank">
+    NATIONAL BRIDGE CHALLENGE (Formulir Pendaftaran)
+  </a>
 
-  <!-- Gambar Pamflet 1 -->
-  <div class="section-title">Pamflet 1</div>
-  <img src="pamflet1.jpg" alt="Pamflet 1 Civil Creathink" class="gambar">
+  <a class="btn tor" href="https://example.com/tor-ntbbc" target="_blank">
+    TOR (National Bridge Challenge)
+  </a>
 
-  <!-- Gambar Pamflet 2 -->
-  <div class="section-title">Pamflet 2</div>
-  <img src="pamflet2.jpg" alt="Pamflet 2 Civil Creathink" class="gambar">
+  <a class="btn twibbon" href="https://example.com/twibbon-ntbbc" target="_blank">
+    TWIBBON (National Bridge Challenge)
+  </a>
+
+  <a class="btn pamflet" href="https://example.com/pamflet-ntbbc" target="_blank">
+    PAMFLET (National Bridge Challenge)
+  </a>
 
 </body>
 </html>

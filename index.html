@@ -2,90 +2,73 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HIMPUNAN MAHASISWA TEKNIK SIPIL UNSIQ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIVIL CREATHINK 2025</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom, #dbeefb, #ffffff);
+      font-family: Arial, sans-serif;
       text-align: center;
-      margin: 0;
-      padding: 20px;
+      background: #f0f8ff;
     }
-
-    img.logo {
+    h1, h2 {
+      color: #1b3a57;
+    }
+    .logo {
       width: 100px;
-      margin-top: 20px;
+      margin: 10px auto;
     }
-
-    h1 {
-      font-size: 22px;
-      margin-bottom: 5px;
-      font-weight: bold;
-      color: #333;
-    }
-
-    h2 {
-      font-size: 18px;
-      color: #4a4a4a;
-      font-weight: normal;
-    }
-
-    .btn {
+    .button {
       display: block;
-      width: 80%;
-      max-width: 400px;
       margin: 15px auto;
       padding: 15px;
-      font-size: 16px;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 15px;
+      font-size: 18px;
       font-weight: bold;
-      border: none;
-      border-radius: 30px;
-      color: white;
       text-decoration: none;
-      transition: 0.2s ease-in-out;
+      color: white;
     }
-
-    .btn:hover {
-      opacity: 0.85;
+    .blue { background-color: #2196F3; }
+    .orange { background-color: #FF9800; }
+    .yellow { background-color: #FFC107; color: black; }
+    .image-link img {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin-top: 10px;
     }
-
-    .seminar     { background-color: #3498db; }
-    .nbc         { background-color: #f39c12; }
-    .tor         { background-color: #f39c12; }
-    .formulir    { background-color: #f39c12; }
-    .twibbon     { background-color: #f39c12; }
-    .pamflet     { background-color: #f39c12; }
   </style>
 </head>
 <body>
-
-  <!-- Ganti dengan logo sendiri jika perlu -->
-  <img src="logo.png" alt="Logo HMTS" class="logo">
-
+  <img class="logo" src="/mnt/data/1000360527.jpg" alt="Logo HMTS">
   <h1>HIMPUNAN MAHASISWA TEKNIK SIPIL UNSIQ</h1>
-  <h2>SEMINAR DAN LOMBA NASIONAL</h2>
+  <h2>LOMBA DAN SEMINAR</h2>
 
-  <!-- Ganti href dengan link asli -->
-  <a class="btn seminar" href="https://example.com/pendaftaran-seminar" target="_blank">
-    SEMINAR NASIONAL (Link Pendaftaran)
-  </a>
+  <a class="button blue" href="https://forms.gle/63t9wjQf2iedYFNj9" target="_blank">SEMINAR NASIONAL<br>Link Pendaftaran</a>
 
-  <a class="btn nbc" href="https://example.com/formulir-ntbbc" target="_blank">
-    NATIONAL BRIDGE CHALLENGE (Formulir Pendaftaran)
-  </a>
+  <a class="button orange" href="/mnt/data/formulir-pendaftaran.pdf" target="_blank">NATIONAL BRIDGE CHALLENGE<br>Formulir Pendaftaran</a>
+  <a class="button orange" href="/mnt/data/tor.pdf" target="_blank">TOR<br>(National Bridge Challenge)</a>
 
-  <a class="btn tor" href="https://example.com/tor-ntbbc" target="_blank">
-    TOR (National Bridge Challenge)
-  </a>
+  <a class="button orange" href="#twibbon">TWIBBON<br>(National Bridge Challenge)</a>
+  <a class="button orange" href="#pamflet">PAMFLET</a>
 
-  <a class="btn twibbon" href="https://example.com/twibbon-ntbbc" target="_blank">
-    TWIBBON (National Bridge Challenge)
-  </a>
+  <a class="button yellow" href="#contact">CONTACT PERSON<br>Lutvia</a>
 
-  <a class="btn pamflet" href="https://example.com/pamflet-ntbbc" target="_blank">
-    PAMFLET (National Bridge Challenge)
-  </a>
+  <div id="pamflet" class="image-link">
+    <h2>Pamflet</h2>
+    <img src="/mnt/data/1000359226.jpg" alt="Pamflet">
+    <img src="/mnt/data/1000360143.jpg" alt="Pamflet 2">
+  </div>
 
+  <div id="twibbon" class="image-link">
+    <h2>Twibbon</h2>
+    <img src="/mnt/data/1000360523.jpg" alt="Twibbon">
+  </div>
+
+  <div id="contact">
+    <h2>Contact Person</h2>
+    <p>Lutvia<br>083869051126 (Sovidiah Lestari)<br>085700918328 (Naufa Dinda)<br>Email: civilcreathink2025@gmail.com</p>
+  </div>
 </body>
 </html>
